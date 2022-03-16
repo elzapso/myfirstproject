@@ -1,0 +1,60 @@
+/* :root {
+    --primaryblue: #1e90ff;
+    --secondarywhite: #eff14f;
+    --andigotacolorfulaura: #00FFFF;
+    --dakki: #8FBC8F;
+  }
+
+h1 {
+    color:var(--primaryblue);
+}
+h2 {
+    color:var(--andigotacolorfulaura);
+}
+h3 {
+    color:var(--secondarywhite);
+}
+h4 {
+    color:var(--dakki);
+}
+h5 {
+    color:var(--primaryblue);
+} */
+*{
+    margin: 0 auto;
+}
+ .monke{
+    background-image: linear-gradient(
+        60deg,
+        hsl(0deg 0% 85%) 1%,
+        hsl(58deg 3% 81%) 33%,
+        hsl(58deg 5% 78%) 41%,
+        hsl(59deg 6% 74%) 46%,
+        hsl(59deg 7% 71%) 48%,
+        hsl(59deg 8% 67%) 50%,
+        hsl(59deg 8% 64%) 51%,
+        hsl(60deg 9% 61%) 51%,
+        hsl(60deg 9% 57%) 51%,
+        hsl(60deg 9% 54%) 51%,
+        hsl(60deg 9% 51%) 50%,
+        hsl(61deg 11% 48%) 50%,
+        hsl(61deg 12% 45%) 49%,
+        hsl(61deg 14% 41%) 49%,
+        hsl(62deg 16% 38%) 49%,
+        hsl(62deg 19% 35%) 49%,
+        hsl(63deg 22% 32%) 50%,
+        hsl(63deg 25% 29%) 52%,
+        hsl(64deg 30% 26%) 54%,
+        hsl(64deg 35% 23%) 59%,
+        hsl(65deg 42% 21%) 67%,
+        hsl(65deg 51% 18%) 99%
+      );
+      width: 1900px;
+      height: 990px;
+ }
+img {
+    clip-path: circle(50%);
+    width: 1900px;
+    height: 990px;
+    opacity: 0.5;
+}

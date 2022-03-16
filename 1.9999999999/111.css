@@ -1,0 +1,62 @@
+.ball {
+    height: 125px;
+  width: 125px;
+  background-color: rgb(230, 118, 14);
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.post {
+  height: 600px;
+  width: 20px;
+  background-color: rgb(109, 116, 116);
+}
+
+/* @keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 200px, 0); }
+} */
+@keyframes bounce {
+   from {
+      background-color: pink;
+      margin-left: 0px;
+      top: 0;
+  }
+  to {
+      background-color: aquamarine;
+      margin-left: 2200px;
+      top: 200px;
+  } 
+  /* 0% {
+      background-color: pink;
+      margin-right: 200px;
+      
+  }
+  20% {
+      background-color: pink;
+      margin-right: 300px;
+  
+  }
+  40% {
+      background-color: royalblue;
+      margin-right: 400px;
+     
+  }
+  60% {
+      background-color: royalblue;
+      margin-right: 500px;
+     
+  }
+  80%{
+      background-color: royalblue;
+      margin-right: 600px;
+      
+  }
+  100% {
+      background-color: rgb(23, 126, 83);
+      margin-right: 700px;
+      
+  } */
+}

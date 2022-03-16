@@ -1,0 +1,50 @@
+.box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+    animation: move 2s infinite alternate linear;
+}
+
+@keyframes move {
+    /* from {
+        background-color: pink;
+        width: 200px;
+        top: 0;
+    }
+    to {
+        background-color: aquamarine;
+        width: 400px;
+        top: 200px;
+    } */
+    0% {
+        background-color: pink;
+        width: 200px;
+        top: 0;
+    }
+    20% {
+        background-color: pink;
+        width: 300px;
+        top: 0px; 
+    }
+    40% {
+        background-color: royalblue;
+        width: 400px;
+        top: 0px; 
+    }
+    60% {
+        background-color: royalblue;
+        width: 500px;
+        top: 0px; 
+    }
+    80%{
+        background-color: royalblue;
+        width: 600px;
+        top: 0px; 
+    }
+    100% {
+        background-color: rgb(23, 126, 83);
+        width: 700px;
+        top: 0px; 
+    }
+}
